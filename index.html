@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forma — Área de Membros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="index.html" aria-label="Forma">
+      <span class="brand-mark"></span>
+      <span class="brand-name">Forma</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a class="nav-link is-active" href="index.html">Início</a>
+      <a class="nav-link" href="#categorias">Cursos</a>
+      <a class="nav-link" href="#continuar">Meu progresso</a>
+    </nav>
+    <div class="topbar-right">
+      <button class="icon-btn" type="button" aria-label="Buscar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+      <div class="avatar" title="Aluno">A</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" style="--hero-img: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80')"></div>
+      <div class="hero-fade"></div>
+      <div class="hero-content">
+        <p class="hero-kicker">Em destaque</p>
+        <h1 class="hero-title">Negócios Digitais do Zero</h1>
+        <p class="hero-sub">Do primeiro produto à primeira venda — módulos práticos, vídeos curtos e materiais prontos para aplicar.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="aula.html">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            Continuar aula
+          </a>
+          <a class="btn btn-ghost" href="aula.html">Ver módulos</a>
+        </div>
+        <div class="hero-meta">
+          <span>12 módulos</span>
+          <span class="dot"></span>
+          <span>48 aulas</span>
+          <span class="dot"></span>
+          <span>Progresso 34%</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="row-section" id="continuar">
+      <div class="row-head">
+        <h2>Continuar assistindo</h2>
+      </div>
+      <div class="rail" data-rail>
+        <a class="card card-continue" href="aula.html">
+          <div class="card-thumb" style="--cover: linear-gradient(135deg,#1a3a4a,#0d1f28), url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=600&q=80')">
+            <div class="progress-bar"><i style="width:62%"></i></div>
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </div>
+          <div class="card-body">
+            <p class="card-eyebrow">Módulo 3 · Aula 2</p>
+            <h3>Como precificar seu produto</h3>
+            <p class="card-meta">Restam 8 min · parado em 12:40</p>
+          </div>
+        </a>
+        <a class="card card-continue" href="aula.html">
+          <div class="card-thumb" style="--cover: linear-gradient(135deg,#3a2a1a,#1f150d), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80')">
+            <div class="progress-bar"><i style="width:28%"></i></div>
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </div>
+          <div class="card-body">
+            <p class="card-eyebrow">Módulo 1 · Aula 4</p>
+            <h3>Funil de vendas simples</h3>
+            <p class="card-meta">Restam 14 min · parado em 04:12</p>
+          </div>
+        </a>
+        <a class="card card-continue" href="aula.html">
+          <div class="card-thumb" style="--cover: linear-gradient(135deg,#2a1a3a,#150d1f), url('https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=600&q=80')">
+            <div class="progress-bar"><i style="width:90%"></i></div>
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </div>
+          <div class="card-body">
+            <p class="card-eyebrow">Módulo 5 · Aula 1</p>
+            <h3>Conteúdo que converte</h3>
+            <p class="card-meta">Restam 2 min · quase concluída</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="row-section" id="categorias">
+      <div class="row-head">
+        <h2>Negócios &amp; Empreendedorismo</h2>
+      </div>
+      <div class="rail" data-rail>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge">Liberado</span>
+          </div>
+          <h3>Negócios Digitais do Zero</h3>
+          <p class="card-meta">12 módulos · 48 aulas</p>
+        </a>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge">Liberado</span>
+          </div>
+          <h3>Lançamentos sem anúncio</h3>
+          <p class="card-meta">8 módulos · 32 aulas</p>
+        </a>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge badge-lock">Libera em 7 dias</span>
+          </div>
+          <h3>Finanças para criadores</h3>
+          <p class="card-meta">6 módulos · 24 aulas</p>
+        </a>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge">Liberado</span>
+          </div>
+          <h3>Marca pessoal forte</h3>
+          <p class="card-meta">5 módulos · 20 aulas</p>
+        </a>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge badge-lock">Bloqueado</span>
+          </div>
+          <h3>Automação de vendas</h3>
+          <p class="card-meta">7 módulos · 28 aulas</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="row-section">
+      <div class="row-head">
+        <h2>Marketing &amp; Conteúdo</h2>
+      </div>
+      <div class="rail" data-rail>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge">Novo</span>
+          </div>
+          <h3>Instagram que vende</h3>
+          <p class="card-meta">9 módulos · 36 aulas</p>
+        </a>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge">Liberado</span>
+          </div>
+          <h3>Copywriting prático</h3>
+          <p class="card-meta">6 módulos · 22 aulas</p>
+        </a>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge">Liberado</span>
+          </div>
+          <h3>Storytelling de marca</h3>
+          <p class="card-meta">4 módulos · 16 aulas</p>
+        </a>
+        <a class="card" href="aula.html">
+          <div class="card-cover" style="background-image:url('https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=500&q=80')">
+            <span class="badge badge-lock">Após módulo anterior</span>
+          </div>
+          <h3>Tráfego orgânico</h3>
+          <p class="card-meta">8 módulos · 30 aulas</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="row-section">
+      <div class="row-head">
+        <h2>Módulos deste curso</h2>
+        <p class="row-sub">Organizados para você avançar sem se perder</p>
+      </div>
+      <div class="rail rail-modules" data-rail>
+        <a class="module-card" href="aula.html">
+          <span class="module-num">01</span>
+          <div>
+            <h3>Fundamentos</h3>
+            <p>6 aulas · 100% concluído</p>
+          </div>
+          <span class="module-check">✓</span>
+        </a>
+        <a class="module-card" href="aula.html">
+          <span class="module-num">02</span>
+          <div>
+            <h3>Oferta irresistível</h3>
+            <p>5 aulas · 100% concluído</p>
+          </div>
+          <span class="module-check">✓</span>
+        </a>
+        <a class="module-card is-current" href="aula.html">
+          <span class="module-num">03</span>
+          <div>
+            <h3>Precificação</h3>
+            <p>4 aulas · 50% · em andamento</p>
+          </div>
+          <span class="module-pulse"></span>
+        </a>
+        <a class="module-card is-locked" href="aula.html" aria-disabled="true">
+          <span class="module-num">04</span>
+          <div>
+            <h3>Página de vendas</h3>
+            <p>5 aulas · libera ao concluir o 03</p>
+          </div>
+          <span class="module-lock">🔒</span>
+        </a>
+        <a class="module-card is-locked" href="aula.html" aria-disabled="true">
+          <span class="module-num">05</span>
+          <div>
+            <h3>Conteúdo que converte</h3>
+            <p>6 aulas · libera em 14 dias</p>
+          </div>
+          <span class="module-lock">🔒</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Prévia da área de membros · Forma · Layout estilo Netflix</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

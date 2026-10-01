@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Como precificar seu produto — Forma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-lesson">
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="topbar topbar-solid" id="topbar">
+    <a class="brand" href="index.html" aria-label="Forma">
+      <span class="brand-mark"></span>
+      <span class="brand-name">Forma</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a class="nav-link" href="index.html">Início</a>
+      <a class="nav-link is-active" href="aula.html">Aula</a>
+    </nav>
+    <div class="topbar-right">
+      <div class="progress-chip" title="Progresso do curso">
+        <span>Curso 34%</span>
+        <div class="mini-bar"><i style="width:34%"></i></div>
+      </div>
+      <div class="avatar" title="Aluno">A</div>
+    </div>
+  </header>
+
+  <main class="lesson-layout">
+    <section class="lesson-main">
+      <div class="player" id="player">
+        <div class="player-poster" style="background-image:url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1400&q=80')"></div>
+        <button class="player-play" type="button" id="playBtn" aria-label="Reproduzir aula">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="player-overlay" id="playerOverlay" hidden>
+          <p>Player conectado à plataforma de vídeo<br><small>(Panda Video / Bunny Stream na versão final)</small></p>
+        </div>
+        <div class="player-controls">
+          <div class="scrub" id="scrub" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="62" tabindex="0">
+            <i id="scrubFill" style="width:62%"></i>
+            <b id="scrubThumb" style="left:62%"></b>
+          </div>
+          <div class="player-row">
+            <span id="timeLabel">12:40 / 20:15</span>
+            <span class="player-hint">Retomado do último ponto · sync celular ↔ PC</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lesson-info">
+        <p class="lesson-path">Negócios Digitais do Zero · Módulo 3 · Precificação</p>
+        <h1>Como precificar seu produto</h1>
+        <p class="lesson-desc">Nesta aula você monta uma tabela de preço justa: custo, margem e valor percebido — sem chute e sem copiar concorrente.</p>
+
+        <div class="lesson-actions">
+          <button class="btn btn-primary" type="button" id="completeBtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+            Concluir aula
+          </button>
+          <a class="btn btn-ghost" href="aula.html">Próxima aula →</a>
+        </div>
+
+        <div class="materials">
+          <h2>Materiais de apoio</h2>
+          <ul>
+            <li>
+              <a href="#">
+                <span class="file-ico">PDF</span>
+                <span>Planilha de precificação.xlsx</span>
+                <span class="dl">Baixar</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="file-ico">PDF</span>
+                <span>Checklist de custos.pdf</span>
+                <span class="dl">Baixar</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <aside class="lesson-side">
+      <div class="side-head">
+        <h2>Módulo 3 · Precificação</h2>
+        <p>2 de 4 aulas concluídas</p>
+        <div class="side-progress"><i style="width:50%"></i></div>
+      </div>
+
+      <ol class="lesson-list">
+        <li class="lesson-item is-done">
+          <a href="aula.html">
+            <span class="li-status">✓</span>
+            <span class="li-body">
+              <strong>1. Custo real vs. preço de venda</strong>
+              <small>14 min</small>
+            </span>
+          </a>
+        </li>
+        <li class="lesson-item is-active">
+          <a href="aula.html">
+            <span class="li-status">▶</span>
+            <span class="li-body">
+              <strong>2. Como precificar seu produto</strong>
+              <small>20 min · assistindo</small>
+            </span>
+          </a>
+        </li>
+        <li class="lesson-item">
+          <a href="aula.html">
+            <span class="li-status">3</span>
+            <span class="li-body">
+              <strong>3. Pacotes e âncoras de preço</strong>
+              <small>16 min</small>
+            </span>
+          </a>
+        </li>
+        <li class="lesson-item is-locked">
+          <a href="aula.html" aria-disabled="true">
+            <span class="li-status">🔒</span>
+            <span class="li-body">
+              <strong>4. Exercício: sua tabela final</strong>
+              <small>Libera ao concluir esta aula</small>
+            </span>
+          </a>
+        </li>
+      </ol>
+
+      <div class="side-modules">
+        <h3>Outros módulos</h3>
+        <a class="side-mod done" href="index.html"><span>01</span> Fundamentos</a>
+        <a class="side-mod done" href="index.html"><span>02</span> Oferta irresistível</a>
+        <a class="side-mod current" href="aula.html"><span>03</span> Precificação</a>
+        <a class="side-mod locked" href="#"><span>04</span> Página de vendas</a>
+      </div>
+    </aside>
+  </main>
+
+  <div class="toast" id="toast" hidden>Aula marcada como concluída · progresso atualizado</div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
